@@ -1,0 +1,8 @@
+#bodyparent{
+    color:green;
+    border: 3px solid black;/*this property don't go in child elements of bocy becasue they don't get there speperate borders*/
+}
+
+#headcolor{
+    color:blue;
+}

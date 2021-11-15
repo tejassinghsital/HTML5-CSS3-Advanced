@@ -1,0 +1,14 @@
+div{
+    color:blue;
+}
+
+.fontsize{
+    font-size:50px;
+}
+
+#title{
+    text-transform: uppercase;
+}
+span{
+    color:green;
+}
