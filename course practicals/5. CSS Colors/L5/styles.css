@@ -1,0 +1,9 @@
+#first{
+    color: rgba(0, 0, 255,0.56);
+    background:rgba(0, 128, 0,0.23);
+}
+
+body{
+    color:rgba(255, 0, 0,0.345);
+    background-color:rgba(255, 255, 0,0.675);
+}
