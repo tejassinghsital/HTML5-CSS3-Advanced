@@ -1,0 +1,7 @@
+h1{
+    color: blue;
+    background:green;
+    font-size:60px;
+    height: 1000px; /*this is the height of the background color of the element.  */
+    width: 400px; /*this is the width of the background color of the element.(element formatting change with this mens the content can't surpass the background boundry means width...)  */
+}
