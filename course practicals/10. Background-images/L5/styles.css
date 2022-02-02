@@ -1,0 +1,39 @@
+div{
+    height: 300px;
+
+}
+.big-image{
+    background:url("./big.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.small-image{
+    background: url("./small.jpeg");
+        /* default */
+        background-repeat: repeat;
+        /* most used */
+        background-repeat: no-repeat;
+        background-repeat: repeat-x;
+        background-repeat: repeat-y;
+        background-repeat: space;
+        /* not show effect here like in bing image */
+            background-repeat: round;
+
+        /* Image distort whiel stretched */
+        background-size: cover;
+
+
+
+
+
+
+
+}
+
+.folder-image{
+    background: url("./images/folder-img.jpeg");
+
+    /* Image maintain same ratio as div height */
+    background-size: contain;
+}

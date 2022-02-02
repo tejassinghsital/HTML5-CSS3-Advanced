@@ -1,0 +1,50 @@
+div{
+    height: 300px;
+
+}
+.big-image{
+    background:url("./big.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Most used */
+    background-position: center;
+    /* Default Behaviour */
+    background-position: 0 0;
+    /* These background-position may not seen properly her so try it in small image. */
+    background-position: 20% 50%;
+    background-position: top;
+    background-position: right;
+    background-position: left;
+    background-position: bottom;
+
+}
+
+.small-image{
+    background: url("./small.jpeg");
+        /* default */
+        background-repeat: repeat;
+        /* most used */
+        background-repeat: no-repeat;
+        background-repeat: repeat-x;
+        background-repeat: repeat-y;
+        background-repeat: space;
+        /* not show effect here like in bing image */
+            background-repeat: round;
+
+        /* Image distort whiel stretched */
+        background-size: cover;
+
+
+
+
+
+
+
+}
+
+.folder-image{
+    background: url("./images/folder-img.jpeg");
+
+    /* Image maintain same ratio as div height */
+    background-size: contain;
+}
